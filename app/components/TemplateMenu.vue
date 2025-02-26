@@ -3,29 +3,29 @@
     v-slot="{ open }"
     :modal="false"
     :items="[{
-      label: `Starter`,
-      to: 'https://ui-pro-starter.nuxt.dev/'
+      label: `Portal`,
+      to: 'https://example.com'
     }, {
-      label: `Landing`,
-      to: 'https://landing-template.nuxt.dev/',
+      label: `Sentai`,
+      to: '',
       color: 'primary',
       checked: true,
       type: 'checkbox'
     }, {
-      label: `Docs`,
-      to: 'https://docs-template.nuxt.dev/'
+      label: `About`,
+      to: 'https://example.com'
     }, {
-      label: `SaaS`,
-      to: 'https://saas-template.nuxt.dev/'
+      label: `Contact`,
+      to: 'https://example.com'
     }, {
-      label: `Dashboard`,
-      to: 'https://dashboard-template.nuxt.dev/'
+      label: `Login`,
+      to: 'https://example.com'
     }]"
     :ui="{ content: 'w-(--reka-dropdown-menu-trigger-width) min-w-0' }"
     size="xs"
   >
     <UButton
-      label="Landing"
+      label="Sentai"
       variant="subtle"
       trailing-icon="i-lucide-chevron-down"
       size="xs"

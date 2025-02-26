@@ -7,18 +7,6 @@ const items = computed(() => [{
   to: '#features',
   active: activeHeadings.value.includes('features') && !activeHeadings.value.includes('templates')
 }, {
-  label: 'Templates',
-  to: '#templates',
-  active: activeHeadings.value.includes('templates') && !activeHeadings.value.includes('pricing')
-}, {
-  label: 'Pricing',
-  to: '#pricing',
-  active: activeHeadings.value.includes('pricing') && !activeHeadings.value.includes('testimonials')
-}, {
-  label: 'Testimonials',
-  to: '#testimonials',
-  active: activeHeadings.value.includes('testimonials') && !activeHeadings.value.includes('faq')
-}, {
   label: 'FAQ',
   to: '#faq',
   active: activeHeadings.value.includes('faq')
@@ -38,8 +26,8 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
 <template>
   <UHeader>
     <template #left>
-      <NuxtLink to="/">
-        <LogoPro class="w-auto h-6 shrink-0" />
+      <NuxtLink to="http://sentailabs.tech">
+        <LogoPro class="w-34 h-12 shrink-0" />
       </NuxtLink>
       <TemplateMenu />
     </template>
@@ -53,7 +41,7 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
       <UColorModeButton />
 
       <UButton
-        to="https://github.com/nuxt-ui-pro/landing/tree/v3"
+        to="https://github.com/login"
         target="_blank"
         icon="i-simple-icons-github"
         aria-label="GitHub"

@@ -96,7 +96,7 @@ function onSubmit() {
 
     <template #right>
       <UButton
-        to="https://github.com/nuxt-ui-pro/landing/tree/v3"
+        to="https://github.com/D3adshad0ws"
         target="_blank"
         icon="i-simple-icons-github"
         aria-label="GitHub"

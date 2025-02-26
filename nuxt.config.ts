@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/image',
     '@nuxt/ui-pro',
+    '@nuxt/devtools',
     '@nuxt/content'
   ],
 
